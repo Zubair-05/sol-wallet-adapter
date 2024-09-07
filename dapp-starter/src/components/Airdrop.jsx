@@ -10,6 +10,7 @@ const Airdrop = () => {
             console.log(response);
         } catch (e) {
             console.log(e)
+            alert("and now we got an error message")
         }
     }
     return (
